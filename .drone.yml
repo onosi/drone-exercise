@@ -3,7 +3,7 @@ name: default
 
 steps:
   - name: test
-    image: ruby
+    image: ruby:2.6.2
     commands:
       - bundle install
       - rspec
